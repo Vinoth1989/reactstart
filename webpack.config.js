@@ -1,8 +1,9 @@
 var config = {
-    entry: './main.js',
+    entry: './main1.js',
     output: {
        path:'/',
-       filename: 'hello.js',
+       /*filename: 'hello.js',*/
+       filename: 'route.js',
     },
     devServer: {
        inline: true,
